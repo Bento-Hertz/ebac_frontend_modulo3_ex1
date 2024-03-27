@@ -6,7 +6,7 @@ $(document).ready(() => {
         e.preventDefault();
 
         const task = $('#task').val();
-        $(`<li>${task}</li>`).appendTo('ul');
+        $(`<li>${task}</li>`).appendTo(list);
 
         $('#task').val('');
     });
@@ -14,5 +14,5 @@ $(document).ready(() => {
     list.on('click', 'li', function(e) {
         $(e.target).toggleClass('active');
     });
-    
+
 })
