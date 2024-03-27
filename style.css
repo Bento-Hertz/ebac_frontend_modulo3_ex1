@@ -1,0 +1,12 @@
+form {
+    width: 400px;
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid black;
+}
+
+form div {
+    margin-bottom: 16px;
+    display: grid;
+    gap: 4px;
+}
